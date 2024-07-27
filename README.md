@@ -21,4 +21,4 @@ Ensure you have the following installed on your machine:
 ## Installation
   ```sh
    git clone https://github.com/abilly2045/Wikipedia-Scraping-folder.git
-   cd Wikipedia-links-scraping_folder
+   cd Wikipedia-links-Scraping_folder
