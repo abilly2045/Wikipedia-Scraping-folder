@@ -1,8 +1,7 @@
 describe('Scrape Wikipedia Links', () => {
     it('scrapes unique Wikipedia links for n cycles', () => {
-        const startUrl = 'https://en.wikipedia.org/wiki/Computer_security'; // Replace with desired input
-        const n = 2; // Replace with desired number of cycles (1 to 3)
-
+        const startUrl = 'https://en.wikipedia.org/wiki/Computer_security'; // The Wikipage variable use to check it works
+        const n = 2; //  The integer variable use between 1 to 3
         const wikiRegex = /^https:\/\/en\.wikipedia\.org\/wiki\/.+$/;
         if (!wikiRegex.test(startUrl)) {
             throw new Error('Invalid Wikipedia link');
